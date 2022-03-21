@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav > p {
+  letter-spacing: -1px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2.5rem;
+  height: 168px;
+}
+
+.card-img {
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-info {
+  padding: 1rem 0;
+}
+
+.card-location {
+  display: flex;
+  gap: 6px;
+}
+
+.loc-icon {
+  height: 15px;
+  padding-top: 2px;
+}
+
+.card-location > h3 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.card-mapview {
+  color: #918e9b;
+  margin-left: 0.6rem;
+  font-size: 0.9rem;
+}
+
+.card-title {
+  margin-top: 0.3rem;
+  font-size: 2rem;
+}
+
+.card-dates {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.card-descr {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
